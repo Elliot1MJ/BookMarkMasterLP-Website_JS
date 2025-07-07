@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Master</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/favicon-32x32.png">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        
+        <div class="navbar-style">
+
+            <!-- navbar left side -->
+            <div class="navbar-l-s">
+                <img src="imgs/logo-bookmark.svg">
+            </div>
+
+            <!-- navbar right side -->
+            <div class="navbar-r-s">
+                <div>Features</div>
+                <div>Pricing</div>
+                <div>Contact</div>
+                <button class="login-btn">LOGIN</button>
+            </div>
+
+            <div id="sandWich"> <!-- ID: sandWich -->
+                <div id="stick1"></div>
+                <div id="stick2"></div>
+                <div id="stick3"></div>
+            </div>
+
+            <!-- navbar mobile -->
+            <div id="navbar-mobile">
+                <img src="imgs/logo-bookmark.svg" class="logo">
+                <div class="nav-items">
+                    <div class="line"></div>
+                    <div>Features</div>
+                    <div class="line"></div>
+                    <div>Pricing</div>
+                    <div class="line"></div>
+                    <div>Contact</div>
+                    <div class="line"></div>
+                    <button class="navbar-moblie-l-b">LOGIN</button>
+                </div>
+                <div class="nav-mobile-icon">
+                    <img src="imgs/icon-facebook.svg">
+                    <img src="imgs/icon-twitter.svg">
+                </div>
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <!-- Main container -->
+    <main class="main-con">
+
+        <div class="main-con-style">
+
+            <!-- main section 1 -->
+            <section class="sec1">
+
+                <!-- Section 1 left side -->
+                <div class="sec1-l-s">
+                    <div class="sec1-head-text">A Simple Bookmark Manager</div>
+                    <div class="sec1-main-text">  A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</div>
+                    <div class="sec1-btns">
+                        <button class="sec1-btn-chrome">Get it on Chrome</button>
+                        <button class="sec1-btn-fireFox">Get it on Firefox</button>
+                    </div>
+                </div>
+
+                <!-- Section 1 right side -->
+                <div class="sec1-r-s">
+                    <img src="imgs/illustration-hero.svg" class="sec1-img">
+                </div>
+
+
+            </section>
+
+            <!-- main section 2 -->
+            <section class="sec2">
+
+                <!-- Section 2 head text -->
+                <div class="sec2-head-text">Features</div>
+
+                <!-- Section 2 main text -->
+                <div class="sec2-main-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</div>
+                
+                <!-- Section 2 tabs -->
+                <div class="sec2-tabs">
+
+                    <!-- tab 1 -->
+                    <div class="tab1" id="tab1">
+                        <div class="tab1-text">Simple Bookmarking</div>
+                        <div class="underline-tab1" id="underline-tab1"></div>
+                    </div>
+
+                    <!-- tab 2 -->
+                    <div class="tab2" id="tab2">
+                        <div class="tab2-text">Speedy Searching</div>
+                        <div class="underline-tab2" id="underline-tab2"></div>
+                    </div>
+
+                    <!-- tab 3 -->
+                    <div class="tab3" id="tab3">
+                        <div class="tab3-text">Easy Sharing</div>
+                        <div class="underline-tab3" id="underline-tab3"></div>
+                    </div>
+                    
+                </div>
+
+                <!-- Section 2 tabs design -->
+                <div class="sec2-tabs-design">
+
+                    <!-- tab 1 design -->
+                    <div class="tab1-design" id="tab1-design">
+                        <img src="imgs/illustration-features-tab-1.svg" class="tab-img">
+                        <div class="tab-inf">
+                            <div class="tab-inf-head-text">Bookmark in one click</div>
+                            <div class="tab-inf-main-text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</div>
+                            <button class="tab-inf-btn">More Info</button>
+                        </div>
+                    </div>
+
+                    <!-- tab 2 design -->
+                    <div class="tab2-design" id="tab2-design">
+                        <img src="imgs/illustration-features-tab-2.svg" class="tab-img">
+                        <div class="tab-inf">
+                            <div class="tab-inf-head-text">Intelligent search</div>
+                            <div class="tab-inf-main-text">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</div>
+                            <button class="tab-inf-btn">More Info</button>
+                        </div>
+                    </div>
+
+                    <!-- tab 3 design -->
+                    <div class="tab3-design" id="tab3-design">
+                        <img src="imgs/illustration-features-tab-3.svg" class="tab-img">
+                        <div class="tab-inf">
+                            <div class="tab-inf-head-text">Share your bookmarks</div>
+                            <div class="tab-inf-main-text">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</div>
+                            <button class="tab-inf-btn">More Info</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- main section 3 -->
+            <section class="sec3">
+
+                <!-- Section 3 head text -->
+                <div class="sec2-head-text">Download the extension</div>
+
+                <!-- Section 3 main text -->
+                <div class="sec2-main-text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</div>
+
+                <!-- Section 3 Cards con -->
+                <div class="sec3-cards">
+                    <div class="sec3-card">
+                        <img src="imgs/logo-chrome.svg" class="card-img">
+                        <div class="card-head-text">Add to Chrome</div>
+                        <div class="card-main-text">Minimum version 62</div>
+                        <img src="imgs/bg-dots.svg" class="bg-dots">
+                        <button class="card-btn">Add & Install Extension</button>
+                    </div>
+                    <div class="sec3-card">
+                        <img src="imgs/logo-firefox.svg" class="card-img">
+                        <div class="card-head-text">Add to Firefox</div>
+                        <div class="card-main-text">Minimum version 55</div>
+                        <img src="imgs/bg-dots.svg" class="bg-dots">
+                        <button class="card-btn">Add & Install Extension</button>
+                    </div>
+                    <div class="sec3-card">
+                        <img src="imgs/logo-opera.svg" class="card-img">
+                        <div class="card-head-text">Add to Opera</div>
+                        <div class="card-main-text">Minimum version 46</div>
+                        <img src="imgs/bg-dots.svg" class="bg-dots">
+                        <button class="card-btn">Add & Install Extension</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- main section 4 -->
+            <section class="sec4">
+
+                <!-- Section 4 head text -->
+                <div class="sec2-head-text">Frequently Asked Questions</div>
+
+                <!-- Section 4 main text -->
+                <div class="sec2-main-text">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</div>
+
+                <div class="Q-A-sec">
+
+                    <div class="Q-con">
+                        <div class="Q" id="Q1">What is Bookmark?</div>
+                        <div class="drop-icon" id="drop-A1">
+                            <div class="stk1" id="A1stk1"></div>
+                            <div class="stk2" id="A1stk2"></div>
+                        </div>
+                    </div>
+                    <div class="A-con" id="A1-con">
+                        <div class="A">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</div>
+                    </div>
+
+
+                    <div class="Q-con">
+                        <div class="Q" id="Q2">How can I request a new browser?</div>
+                        <div class="drop-icon" id="drop-A2">
+                            <div class="stk1" id="A2stk1"></div>
+                            <div class="stk2" id="A2stk2"></div>
+                        </div>
+                    </div>
+                    <div class="A-con" id="A2-con">
+                        <div class="A">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</div>
+                    </div>
+
+
+                    <div class="Q-con">
+                        <div class="Q" id="Q3">Is there a mobile app?</div>
+                        <div class="drop-icon" id="drop-A3">
+                            <div class="stk1" id="A3stk1"></div>
+                            <div class="stk2" id="A3stk2"></div>
+                        </div>
+                    </div>
+                    <div class="A-con" id="A3-con">
+                        <div class="A">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</div>
+                    </div>
+
+
+                    <div class="Q-con">
+                        <div class="Q" id="Q4">What about other Chromium browsers?</div>
+                        <div class="drop-icon" id="drop-A4">
+                            <div class="stk1" id="A4stk1"></div>
+                            <div class="stk2" id="A4stk2"></div>
+                        </div>
+                    </div>
+                    <div class="A-con" id="A4-con">
+                        <div class="A">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</div>
+                    </div>
+
+                    <button class="Q-A-btn">More Info</button>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-style">
+
+            <div class="footer-main-text">35,000+ already joined</div>
+            <div class="footer-head-text">Stay up-to-date with what we’re doing</div>
+            <div class="droping-inf">
+                <input type="email" placeholder="Enter your Email address" inputmode="email" class="email-input">
+                <button class="contact-us">Contact Us</button>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="control.js"></script>
+
+</body>
+</html>
